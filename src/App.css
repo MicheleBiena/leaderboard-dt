@@ -1,38 +1,116 @@
 .App {
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  width: 60%;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 16px;
+  border-collapse: collapse;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tbody {
+  background: rgba(90, 2, 74, 0.3);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-size: 72px;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+td {
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 70%
+  ); /* Gradient circolare */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.player-img:hover + .overlay,
+.overlay:hover {
+  opacity: 1; /* Mostra il gradiente semitrasparente quando si passa il mouse sopra l'immagine o il layer overlay */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.view-label {
+  color: #fff;
+  font-size: 18px;
+}
+
+th {
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.player-img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+}
+
+.player-name {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.no-display {
+  border: none;
+}
+
+@media (max-width: 767px) {
+  th,
+  td,
+  .player-name {
+    font-size: 16px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .player-img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  table {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
