@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/leaderboard-dt/static/css/main.1653d6ba.css",
+    "main.js": "/leaderboard-dt/static/js/main.5ef73a70.js",
+    "index.html": "/leaderboard-dt/index.html",
+    "main.1653d6ba.css.map": "/leaderboard-dt/static/css/main.1653d6ba.css.map",
+    "main.5ef73a70.js.map": "/leaderboard-dt/static/js/main.5ef73a70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1653d6ba.css",
+    "static/js/main.5ef73a70.js"
+  ]
+}
