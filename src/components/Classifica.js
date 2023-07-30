@@ -77,6 +77,17 @@ const Classifica = () => {
           ))}
         </tbody>
       </table>
+
+      <p>
+        <a
+          className="link-guida"
+          href="https://www.canva.com/design/DAFp02ywYN4/gF5JNScAuj0uIf10INW6FQ/view?utm_content=DAFp02ywYN4&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Regolamento Ufficiale
+        </a>
+      </p>
     </div>
   );
 };
