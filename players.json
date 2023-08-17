@@ -3,15 +3,15 @@
     "foto": "trainer.png",
     "nome": "TrainerFromhoenn",
     "link": "https://twitch.tv/TrainerFromhoenn",
-    "tentativi": 219,
-    "punteggio": 2455
+    "tentativi": 247,
+    "punteggio": 2635
   },
   {
     "foto": "zomba.png",
     "nome": "JustZombah",
     "link": "https://twitch.tv/JustZombah",
-    "tentativi": 244,
-    "punteggio": 2305
+    "tentativi": 270,
+    "punteggio": 5200
   },
   {
     "foto": "carminello.png",
@@ -24,8 +24,8 @@
     "foto": "mezz.png",
     "nome": "IlCrazyMezz",
     "link": "https://twitch.tv/IlCrazyMezz",
-    "tentativi": 155,
-    "punteggio": 1755
+    "tentativi": 162,
+    "punteggio": 2095
   },
   {
     "foto": "hero.png",
@@ -38,7 +38,7 @@
     "foto": "mattivik.png",
     "nome": "MattiVik",
     "link": "https://twitch.tv/mattivik",
-    "tentativi": 197,
-    "punteggio": 3090
+    "tentativi": 211,
+    "punteggio": 3230
   }
 ]
