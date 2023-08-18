@@ -17,15 +17,15 @@
     "foto": "carminello.png",
     "nome": "WeCarminello",
     "link": "https://twitch.tv/WeCarminello",
-    "tentativi": 77,
-    "punteggio": 745
+    "tentativi": 106,
+    "punteggio": 1005
   },
   {
     "foto": "mezz.png",
     "nome": "IlCrazyMezz",
     "link": "https://twitch.tv/IlCrazyMezz",
     "tentativi": 162,
-    "punteggio": 2095
+    "punteggio": 2135
   },
   {
     "foto": "hero.png",
@@ -38,7 +38,7 @@
     "foto": "mattivik.png",
     "nome": "MattiVik",
     "link": "https://twitch.tv/mattivik",
-    "tentativi": 211,
-    "punteggio": 3230
+    "tentativi": 228,
+    "punteggio": 3640
   }
 ]
